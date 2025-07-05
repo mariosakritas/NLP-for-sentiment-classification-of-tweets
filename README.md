@@ -16,7 +16,8 @@ The architecture used is a character-level RNN trained from scratch — without 
 
 The core of the model is an RNN that takes character sequences as input and processes them through hidden layers before outputting sentiment predictions via a softmax layer.
 
-![RNN Architecture](./NMA_DEEP/RNN_Archit.png)
+
+![RNN_Archit](https://github.com/user-attachments/assets/8c9936f2-fff2-4fa2-8ab3-3f17fd166f5c)
 
 ---
 
@@ -24,11 +25,13 @@ The core of the model is an RNN that takes character sequences as input and proc
 
 The model was evaluated on a held-out validation set. Below is a visualization of its performance over training epochs.
 
-![Model Performance](./NMA_DEEP/model_performance.png)
+![model_performance](https://github.com/user-attachments/assets/5dd78571-974a-420d-92d1-cee50c2efe57)
+
 
 We also explored the final softmax outputs for positive sentiment examples:
 
-![Softmax Positive Associations](./NMA_DEEP/positive_associations_softmax.png)
+![positive_associations_softmax](https://github.com/user-attachments/assets/421fdec2-7794-4f40-b514-f51ca0697781)
+
 
 ---
 
